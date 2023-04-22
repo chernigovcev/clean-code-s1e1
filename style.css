@@ -35,7 +35,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -43,16 +43,19 @@
 }
 
 .incomplete {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 
-.item, .h3 {
-    list-style:none;
+.item,
+.h3 {
+    list-style: none;
 }
 
-.input-text, .input-checkbox, .button{
-    outline:none;
+.input-text,
+.input-checkbox,
+.button {
+    outline: none;
 }
 
 .button {
@@ -134,8 +137,8 @@
     width: 226px;
 }
 
-.item >    .input-text {
-    width: 226px
+.item > .input-text {
+    width: 226px;
 }
 
 .delete .remove-img {
@@ -156,14 +159,14 @@
 
 /* Edit Task */
 .incomplete .item .input-text {
-    display:none
+    display: none;
 }
 
 .incomplete .item.edit-mode .input-text {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px;
 }
 
 .incomplete .edit-mode .task {
-    display:none;
+    display: none;
 }
